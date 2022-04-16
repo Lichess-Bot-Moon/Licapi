@@ -14,8 +14,7 @@
 ![Linux](https://img.shields.io/badge/-Linux-FCC624?logo=linux&logoColor=000000)
 
 # MAINTAINERS 
-- [Drdisrespect1](https://lichess.org/@/drdisrespect1) and [Drrespectable](https://lichess.org/@/drrespectable)
-
+- [ Soloboy4](https://lichess.org/@/Soloboy4)
 
 # lichess-bot
 
@@ -24,11 +23,8 @@
 
 ### Bot Information
 
--  Engine      [Stockfish  (dev)](https://abrok.eu/stockfish/builds/ad357e147a1b8481a04761d726ce1db14115a68f/linux64modern/stockfish_21082721_x64_modern.zip) 
--  Using standard book [Cerebellum3Merge.bin](https://gitlab.com/OIVAS7572/Cerebellum3merge.bin/-/raw/master/Cerebellum3Merge.bin.7z)
--  using antichess book [bestanti](https://github.com/codingforhelp/Lichess-Dev-Bot/raw/main/engines/antibest.bin)
--  using books other all variants too! 
-
+If u want weak bot like human or maia then use this
+In case you want strong bot then that repo will be different 
 ## How to Install on Heroku
 - Import or [Fork](https://github.com/LichessBot-Coders/Lichess-Coded-Bots/fork) this repository to your Github.
 - Open the `config.yml` file and insert your [API access token](https://lichess.org/account/oauth/token/create?scopes[]=bot:play&description=Lichess+Bot+Token) in to token option and commit changes over [here](/config.yml#L1).
@@ -43,9 +39,6 @@ Note: You could also `Enable Automatic Deploys` with the `master` branch selecte
 
 **You're now connected to lichess and awaiting challenges! Your bot is up and ready!**
 
-#### How to use stockfish
-- now your bot playing all variants, But standard is not strongest like stockfish dev (but only standard)
-- you can change (if you need standard but) change this [6th line of config.yml](/config.yml#L6) type on type on `fairy-sf` or `chess-engine` after' sure so strongest for standard but not play other variants. again if you need play all variants change this again [6th line of config.yml](/config.yml#L6) type on `fsf` or `fairy-sf`  then play all variants (But standard so strogest)
 - 
 
 ### If you need accept bots 
